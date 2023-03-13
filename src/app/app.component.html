@@ -1,13 +1,85 @@
-<div class="container">
+<div class="container p-5">
   <h1 class="h1">Multimedia</h1>
   <br>
-  <p>Video</p>
+  <h2>Video</h2>
   <video src="assets/M152.mp4" width="100%" controls autoplay></video>
   <br>
-  <p>Bilder</p>
-  <img alt="Picture 1" src="">
   <br>
-  <p>Animationen</p>
-  <img alt="Animation 1" src="">
-
+  <h2>Images</h2>
+  <ngb-carousel>
+    <ng-template ngbSlide>
+      <div>
+        <img src="assets/images/cypher.png" alt="Cypher" class="picture"/>
+      </div>
+      <div class="carousel-caption">
+        <h3>Cypher</h3>
+        <p>The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every
+          move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div>
+        <img src="assets/images/jett.png" alt="Jett" class="picture"/>
+      </div>
+      <div class="carousel-caption">
+        <h3>Jett</h3>
+        <p>Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no
+          one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div>
+        <img src="assets/images/killjoy.png" alt="Killjoy" class="picture"/>
+      </div>
+      <div class="carousel-caption">
+        <h3>Killjoy</h3>
+        <p>The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the
+          damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div>
+        <img src="assets/images/omen.png" alt="Omen" class="picture"/>
+      </div>
+      <div class="carousel-caption">
+        <h3>Omen</h3>
+        <p>A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then
+          lets paranoia take hold as his foe scrambles to learn where he might strike next.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div>
+        <img src="assets/images/reyna.png" alt="Reyna" class="picture"/>
+      </div>
+      <div class="carousel-caption">
+        <h3>Reyna</h3>
+        <p>Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her
+          capability is only limited by her raw skill, making her highly dependent on performance.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div>
+        <img src="assets/images/sova.png" alt="Sova" class="picture"/>
+      </div>
+      <div class="carousel-caption">
+        <h3>Sova</h3>
+        <p>Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless
+          efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you
+          cannot hide.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div>
+        <img src="assets/images/yoru.png" alt="Yoru" class="picture"/>
+      </div>
+      <div class="carousel-caption">
+        <h3>Yoru</h3>
+        <p>Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception
+          and aggression in equal measure, he gets the drop on each target before they know where to look.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  <br>
+  <p>All Valorant fanart belongs to <a href="https://www.deviantart.com/excharny" target="_blank">ExCharny</a></p>
+  <br>
 </div>
