@@ -3,6 +3,14 @@
   height: auto;
 }
 
+.carousel {
+  max-width: 500px;
+}
+
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.35);
+}
+
+a {
+  color: white;
 }
